@@ -1,0 +1,236 @@
+```css
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background: #0a0a0a;
+    color: rgb(160, 36, 115);
+}
+
+/* Navbar */
+
+nav {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+
+    height: 70px;
+    padding: 0 8%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    background: #aa528b;
+    border-bottom: 1px solid #292929;
+}
+
+nav h2 {
+    color: #fff;
+}
+
+nav ul {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
+
+nav ul li a {
+    color: #aaa;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+nav ul li a:hover {
+    color: white;
+}
+
+#themeBtn {
+    padding: 8px 12px;
+    border: 1px solid #444;
+    border-radius: 8px;
+    background: #222;
+    color: white;
+    cursor: pointer;
+}
+
+/* Hero */
+
+.hero {
+    min-height: 90vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    text-align: center;
+
+    padding: 30px;
+}
+
+.hero h1 {
+    font-size: 55px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    color: #999;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+/* Buttons */
+
+.main-btn {
+    padding: 13px 25px;
+
+    border: none;
+    border-radius: 8px;
+
+    background: white;
+    color: black;
+
+    font-size: 16px;
+    font-weight: bold;
+
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.main-btn:hover {
+    transform: translateY(-3px);
+    background: #ccc;
+}
+
+/* Sections */
+
+section {
+    padding: 80px 8%;
+    text-align: center;
+}
+
+section h2 {
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+section > p {
+    color: #999;
+}
+
+/* Cards */
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+
+    margin-top: 40px;
+
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 280px;
+
+    padding: 30px;
+
+    background: #151515;
+    border: 1px solid #292929;
+    border-radius: 12px;
+
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-8px);
+    border-color: #666;
+}
+
+.card h3 {
+    margin-bottom: 15px;
+}
+
+.card p {
+    color: #999;
+}
+
+/* Contact */
+
+form {
+    max-width: 500px;
+    margin: 30px auto;
+
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+form input,
+form textarea {
+    padding: 14px;
+
+    background: #151515;
+    color: white;
+
+    border: 1px solid #333;
+    border-radius: 8px;
+
+    outline: none;
+}
+
+form textarea {
+    height: 150px;
+    resize: none;
+}
+
+form input:focus,
+form textarea:focus {
+    border-color: #777;
+}
+
+#message {
+    color: #00ff88;
+}
+
+/* Footer */
+
+footer {
+    padding: 25px;
+    text-align: center;
+
+    background: #a46c8e;
+    color: #777;
+}
+
+/* Light Mode */
+
+.light {
+    background: #f5f5f5;
+    color: #9d5595;
+}
+
+.light nav {
+    background: white;
+    border-color: #ddd;
+}
+
+.light nav ul li a {
+    color: #555;
+}
+
+.light .card {
+    background: white;
+    border-color: #ddd;
+}
+
+.l
+```
